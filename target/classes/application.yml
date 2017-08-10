@@ -1,0 +1,12 @@
+server:
+  port: 9081
+grpc:
+  port : 7565
+
+logging:
+  level:
+    org.exampledriven: DEBUG
+
+spring:
+  application:
+    name: spring-boot-grpc-service
